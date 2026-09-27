@@ -1,0 +1,13 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore YOLOv8 downloaded model weights (users will auto-download this when they run the script)
+yolov8n.pt
+
+# Ignore generated receipts
+receipt.txt
